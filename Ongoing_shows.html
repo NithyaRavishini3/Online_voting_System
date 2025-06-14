@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ongoing shows</title>
+		<link rel = "stylesheet" href = "../Styles/Ongoing.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+	</head>
+	
+	<body style="background :linear-gradient(to top left,  #5c5cd6 ,  #e6e6ff)">
+
+
+		<!-----------------------header-------------------------->
+
+		<div class="header">
+			<img src="../images/logo.png" alt="logo">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<center><h1><b>PAN-OTING</b></h1></center>
+			</br/><br />
+			<center>
+				<h2 style="font-size:18px ; color :white">VOTING MADE EASY.</h2>
+			</center>
+			<br />
+			<div class="topnav">
+
+				<a href="../html/HomePage.html">Home</a>
+				<a class="active" href="#">Events</a>
+				<a href="../php/Contact.php">Contact Us</a>
+				<a href="../html/aboutus.html">About Us</a>
+				<a href="../html/Feedback.html">Feedback</a>
+
+			</div>
+		</div>
+
+		<!------------------------------------------------------->
+
+
+		<h4 style="color : purple"> <a href="../html/Events.html">Events</a> >  <a href="#"> Ongoing shows </a></h4>
+
+		<center><h1 style="font-size:60px; color :  #19194d">Ongoing Shows</h1></center>
+
+
+		<!--------------Slide show-------------------------------->
+
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 4</div>
+				<img src="../images/sl2.jpg" style="width:650px;height : 450px ">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 4</div>
+				<img src="../images/sl1.jpg" style="width:650px;height : 450px">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 4</div>
+				<img src="../images/sl3.jpg" style="width:650px;height : 450px">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 4</div>
+				<img src="../images/sl4.jpg" style="width:650px;height : 450px">
+			</div>
+
+			<div>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+		</div>
+
+		<br>
+
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 3000);
+		}
+		</script>
+		<br /></br>
+
+		<h4 style="font-size : 25px; margin-left :50px "> Here are the shows that you can vote. Enjoy voting ! </h4>
+		<button type="button" onclick="location.href='../html/addShows.html';">Add New Show</button>
+		<br /><br />
+
+		<!------------------------Ongoing shows galary---------------------------------------->
+
+
+		<div class="gallery">
+			<img src="../images/x.jpg" alt="X factor" width="600px" height="400px">
+			<div class="desc">
+				<button class="material-icons" style="font-size:36px;" id="demo" onclick="colorChange()">favorite</button>
+				<h1 style="font-size : 45px; color :  #660022">The<br /> X factor</h1><br /><br />
+			</div>
+			<br />
+			<a class="button" href="../html/AGT.html">
+				<h2 style="color :#660033 ;font-size: 30px">VOTE</h2>
+			</a></button>
+		</div>
+
+		<script>
+		function colorChange() {
+		  document.getElementById("demo").style.color = "#e60000";
+		}
+		</script>
+		<!-------------------------------------------------------------------------------------->
+
+		<div class="gallery">
+			<img src="../images/z.jpg" alt="Dancing on ICE" width="600px" height="400px">
+			<div class="desc">
+				<button class="material-icons" style="font-size:36px;" id="demo1" onclick="colorChange1()">favorite</button>
+				<h1 style="font-size : 45px; color :  #000066">Dancing<br /> on ICE</h1><br /><br />
+			</div>
+			<br />
+			<a class="button" href="../html/AGT.html">
+				<h2 style="color :#660033 ;font-size: 30px">VOTE</h2>
+			</a></button>
+		</div>
+
+		<script>
+		function colorChange1() {
+		  document.getElementById("demo1").style.color = "#e60000";
+		}
+		</script>
+		<!------------------------------------------------------------------------------------->
+
+		<div class="gallery">
+			<img src="../images/w.jpg" alt="America's got talent" width="600px" height="400px">
+			<div class="desc">
+				<button class="material-icons" style="font-size:36px;" id="demo2" onclick="colorChange2()">favorite</button>
+				<h1 style="font-size : 45px; color : #7a1f5c">America's<br />got Talent</h1><br /><br />
+			</div>
+			<br />
+			<a class="button" href="../html/AGT.html">
+				<h2 style="color :#660033 ;font-size: 30px">VOTE</h2>
+			</a></button>
+		</div>
+
+		<script>
+		function colorChange2() {
+		  document.getElementById("demo2").style.color = "#e60000";
+		}
+		</script>
+
+		<!------------------------------------------------------------------------------------->
+
+		<div class="gallery">
+			<img src="../images/voice.jpg" alt="Voice" width="600px" height="400px">
+			<div class="desc">
+				<button class="material-icons" style="font-size:36px;" id="demo3" onclick="colorChange3()">favorite</button>
+				<h1 style="font-size : 45px; color : #660022">The<br />Voice</h1><br /><br />
+			</div>
+			<br />
+			<a class="button" href="../html/AGT.html">
+				<h2 style="color :#660033 ;font-size: 30px">VOTE</h2>
+			</a></button>
+		</div>
+
+		<script>
+		function colorChange3() {
+		  document.getElementById("demo3").style.color = "#e60000";
+		}
+		</script>
+
+
+		
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+		<!------------footer----------------->
+
+		<div class="footer">
+			<p class="panvoting">PAN-OTING</p>
+		</div>
+		<div class="footdown">
+			<H class="footcate">
+				<b>
+					<a style="text-decoration: none;" href="#"> Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="text-decoration: none;" href="#"> Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="text-decoration: none;" href="#"> Cookie Settings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="text-decoration: none;" href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="text-decoration: none;" href="#"> Help</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.facebook.com"><i class="fa fa-facebook-f" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.twitter.com"><i class="fa fa-twitter" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.gmail.com"><i class="fa fa-google" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</b>
+
+			</H>
+			<center><br><br><br><br><H class="copyrighted">© 2021 PAN-OTING. All right reserved</H></center>
+		</div>
+
+	</body>
+</html>

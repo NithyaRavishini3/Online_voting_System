@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>America's got talent</title>
+    <link rel="stylesheet" href="../Styles/America's got talent.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <script src="../js/AGT.js"></script>
+
+  </head>
+
+  <body>
+      <div class="header">
+       <img src="../images/logo.png" alt="logo">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <center><h1><b>PAN-OTING</b></h1></center>
+
+   <center>
+       <h2 style ="font-size:40px ; color :white; text-indent: 350px">VOTING MADE EASY.</h2>
+   </center>
+
+   <div class="topnav">
+
+       <a href="../html/HomePage.html">Home</a>
+       <a class="active" href="#">Events</a>
+       <a href="../html/HomePage.html">Contact Us</a>
+       <a href="../html/HomePage.html">About Us</a>
+       <a href="../html/Feedback.html">Feedback</a>
+
+   </div>
+   </div>
+
+  
+    
+    <section class="sec" style="position: relative;">
+	<center>
+      <h1 class="p">Vote Now!!!</h1>
+	  </center>
+      <br />
+      <button id="rate" class="button bttn">
+        <a href="../html/ratetodateagt.html" style="text-decoration: none"
+          ><b>Rate To Date</b></a
+        >
+      </button>
+      <p class="p1">
+        Vote for your favourite participants and make them winners.
+      </p>
+      <br />
+
+      <div class="img">
+        <img
+          src="../images/Aidan Bryant.jpg"
+          width="150"
+          height="150"
+          alt="parti 1"
+        />
+        <p id="AidanBryant" class="z"><b>Aidan Bryant</b></p>
+        <div class= "result" id="result"></div>
+        <button class="btn1" id="myButton" value="VOTE">VOTE</button>
+      </div>
+      <br />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        $("#myButton").on("click", function () {
+          myFunction1();
+          clickCounter();
+          //Aidan Bryant
+          $.ajax({
+            method: "POST",
+            url: "countInsert.php",
+            data: {
+              name: $("#AidanBryant").text(),
+              form_name: "AidanBryant",
+            },
+            success: function (data) {
+              clickCounter1();
+            },
+          });
+
+          // Aidan Bryant
+        });
+      </script>
+
+      <div class="img">
+        <img
+          src="../images/Brooke Simpson.jpg"
+          width="150"
+          height="150"
+          alt="parti 2"
+        />
+        <p id="BrookeSimpson" class="z1"><b>Brooke Simpson</b></p>
+        <div class= "result1" id="result1"></div>
+        <button class="btn2" id="myButton1" value="VOTE">VOTE</button>
+      </div>
+      <!-- onclick="myFunction2();clickCounter1();" -->
+      <br />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        $("#myButton1").on("click", function () {
+          myFunction2();
+          Counter1();
+          //Brooke Simpson
+          $.ajax({
+            method: "POST",
+            url: "countInsert.php",
+            data: {
+              name: $("#BrookeSimpson").text(),
+              form_name: "BrookeSimpson",
+            },
+            success: function (data) {
+              clickCounter1();
+            },
+          });
+
+          // end Brooke Simpson
+        });
+      </script>
+
+      <div class="img">
+        <img
+          src="../images/Dustin Tavella.jpg"
+          width="150"
+          height="150"
+          alt="parti 3"
+        />
+        <p id="DustinTavella" class="z2"><b>Dustin Tavella</b></p>
+        <div class= "result2" id="result2"></div>
+        <button class="btn3" id="myButton2" value="VOTE">VOTE</button>
+      </div>
+      <!-- onclick="myFunction3();clickCounter2();" -->
+      <br />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        $("#myButton2").on("click", function () {
+          myFunction3();
+          Counter2();
+
+          //Dustin Tavella
+          $.ajax({
+            method: "POST",
+            url: "countInsert.php",
+            data: {
+              name: $("#DustinTavella").text(),
+              form_name: "DustinTavella",
+            },
+            success: function (data) {
+              Counter2();
+            },
+          });
+
+          // end Dustin Tavella
+        });
+      </script>
+
+      <div class="img">
+        <img
+          src="../images/Josh Blue.jpg"
+          width="150"
+          height="150"
+          alt="parti 4"
+        /><br />
+        <p id="joshBlue" class="z3"><b>Josh Blue</b></p>
+        <button class="btn4" id="myButton3" value="VOTE">VOTE</button>
+        <div class= "result3"  id="result3"></div>
+      </div>
+      <!-- onclick="myFunction4();clickCounter3();" -->
+      <br />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        $("#myButton3").on("click", function () {
+          myFunction4();
+          Counter3();
+          // josh Blue
+          $.ajax({
+            method: "POST",
+            url: "countInsert.php",
+            data: {
+              name: $("#joshBlue").text(),
+              form_name: "joshBlue",
+            },
+            success: function (data) {
+              clickCounter3();
+            },
+          });
+
+          // end josh Blue
+        });
+      </script>
+      <div class="img">
+        <img
+          src="../images/Lea Kyle.jpg"
+          width="150"
+          height="150"
+          alt="parti 5"
+        /><br />
+        <p id="leaKyle" class="z4"><b>Lea Kyle</b></p>
+        <button class="btn5" id="myButton4" value="VOTE">VOTE</button>
+        <div class= "result4"  id="result4"></div>
+      </div>
+      <!-- onclick="myFunction5();clickCounter4();" -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        $("#myButton4").on("click", function () {
+          myFunction5();
+          Counter4();
+
+          // lea kyle
+          $.ajax({
+            method: "POST",
+            url: "countInsert.php",
+            data: {
+              name: $("#leaKyle").text(),
+              form_name: "leakyle",
+            },
+            success: function (data) {
+              myFunction5();
+            },
+          });
+
+          // end lea kyle
+        });
+      </script>
+    </section>
+	<br><br>
+    <div class="footer">
+        <p class="panvoting">PAN-OTING</p>
+    </div>
+    <div class="footdown">
+        <H class="footcate">
+            <b>
+                <a style="text-decoration: none;" href="#"> Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#"> Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#"> Cookie Settings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#"> Help</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com"><i class="fa fa-facebook-f" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.twitter.com"><i class="fa fa-twitter" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.gmail.com"><i class="fa fa-google" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </br>
+
+        </H>
+        <center><br><br><br><br><H class="copyrighted">© 2021 PAN-OTING. All right reserved</H></center>
+    </div>
+  </body>
+</html>

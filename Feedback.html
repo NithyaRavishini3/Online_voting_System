@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="../Styles/Home_Feedback.css">
+    <title> PAN-OTING </title>
+    <script src="js/Script.js"></script>
+</head>
+
+<!--Start of header-->
+
+<body>
+    <div class="header">
+        <img src="../images/logo.png" alt="logo">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <center><h1><b>PAN-OTING</b></h1></center>
+    </div>
+    <center>
+        <h2>VOTING MADE EASY.</h2>
+    </center>
+
+    <!--Navigation bar-->
+
+    <div class="topnav">
+
+        <a href="../html/HomePage.html">Home</a>
+        <a href="../html/Events.html">Events</a>
+        <a href="../php/Contact.php">Contact Us</a>
+        <a href="../html/aboutus.html">About Us</a>
+        <a class="active" href="#">Feedback</a>
+
+    </div>
+
+    <!--White space-->
+
+    <div class="rectangle">
+        <div class="ftext"><b>Your feedback counts!</b></div>
+        <div class="ftext2"><b>We'd love some feedback so we can improve our website</b></div>
+        <div class="ftext3"><br><b>How would you rate your experience?</b></div>
+
+        <hr>
+
+        <!--Star rating-->
+
+        <form method="post" action="../php/Feedback.php">
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div>
+
+            <div class="ftext4"><br><br><b>Please give your comments below:</b></div>
+
+            <!--Comment box-->
+
+            <label for="comment"></label>
+            <textarea id="comment" name="comment" rows="6" cols="40">
+            </textarea>
+
+            <!--Email box-->
+
+            <div class="ftext5"><b>Email Address:</b></div>
+
+            <label for="email"></label>
+            <textarea id="email" name="email" rows="2" cols="40">
+            </textarea>
+
+            <!--Submit button-->
+
+            <input type="submit" name="submit" value="SUBMIT">
+        </form>
+    </div>
+
+    <!--Footer-->
+
+
+    <div class="footer2">
+        <p class="panvoting">PAN-OTING</p>
+    </div>
+    <div class="footdown">
+        <H class="footcate">
+            <b>
+                <a style="text-decoration: none;" href="#"> Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#"> Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#"> Cookie Settings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="#"> Help</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com"><i class="fa fa-facebook-f" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.twitter.com"><i class="fa fa-twitter" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.gmail.com"><i class="fa fa-google" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </br>
+
+        </H>
+        <center><br><br><br><br><H class="copyrighted">© 2021 PAN-OTING. All right reserved</H></center>
+    </div>
+
+</body>
+</html>

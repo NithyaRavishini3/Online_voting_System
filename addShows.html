@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+  <style>
+	  
+	#content{
+		width: 50%;
+		background-color: #d6e0f5;
+		margin: 20px auto;
+		border: 1px solid black;
+	}
+	form{
+		width: 50%;
+		margin: 20px auto;
+	}
+	form div{
+		margin-top: 5px;
+	}
+	  </style>
+<head>
+    <title>show Upload</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel = "stylesheet" href = "../Styles/Events.css">
+</head>
+  
+<body  style = "background :  #8080ff">
+
+	<!------------header------------->
+		
+		<div class="header">
+        <img src="../images/logo.png" alt="logo">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <center><h1><b>PAN-OTING</b></h1></center>
+			</br/><br/>
+			<center>
+				<h2 style ="font-size:18px ; color :white">VOTING MADE EASY.</h2>
+			</center>
+			<br/>
+			<div class="topnav">
+
+        <a href="../html/HomePage.html">Home</a>
+        <a class="active"href="#">Events</a>
+        <a href="../php/Contact.php">Contact Us</a>
+        <a href="../html/aboutus.html">About Us</a>
+        <a href="../html/Feedback.html">Feedback</a>
+
+    </div>
+    </div>
+	
+	<!-------------Form for upload upcoming shows-------------------->
+	<br/><br/>
+    <div id="content">
+			<center><h1 style ="font-size: 30px; color :  #660066">Add upcoming shows</h1></center>
+			
+        <form method="POST" action="../php/submitAddShows.php" enctype="multipart/form-data" >
+				Show name :<br/>
+				<input type="text" name="showname"   /><br/><br/>
+				Starting date :<br/>
+				<input type="date" name="startdate"     /><br/><br/>
+				Upload show image :</br>
+            <input type="file" name="uploadfile"  value="" />
+					
+            <div><br/>
+                <button style = "background-color:green; color:white" type="submit"
+                        name="upload">
+                  UPLOAD
+                </button>
+            </div>
+        </form></div>
+		<br/><br/><br/>
+	<!------------------------form for upload ongoing shows-------------------->
+	
+	 <div id="content">
+		<center><h1 style ="font-size: 30px; color :  #660066">Add ongoing shows</h1></center>
+
+		<form method="POST" action="../php/submitOngoingShows.php" enctype="multipart/form-data" >
+				Show name :<br/>
+				<input type="text" name="showname"   /><br/>
+				<br/>
+				Upload show image :</br>
+            <input type="file" name="uploadfile"  value="" />
+					
+            <div><br/>
+                <button style = "background-color:green; color:white" type="submit"
+                        name="upload">
+                  UPLOAD
+                </button>
+            </div>
+        </form>
+    </div>
+	<br/><br/>
+	
+	<!---------------footer-------------------->
+		
+		<div class="footer">
+		<div><hr> <h2 style ="color :white;position :relative;left:1100px">PAN-OTING</h2>
+		<hr></div>
+		
+			<p class="links">
+				<a href="#"> Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#"> Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#"> Cookie Settings</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#"> Help</a>
+				<span class="right">
+					<a href="https://www.facebook.com"><i class="fa fa-facebook-f" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.twitter.com"><i class="fa fa-twitter" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.gmail.com"><i class="fa fa-google" style="font-size:24px"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span>
+			</p>
+		   
+		<br />
+		   
+		<center><h6 class="copyrighted" style = "font-size = 10px;color:white">© 2021 PAN-OTING. All right reserved</h6></center><br/>
+		</div>
+		
+</body>
+  
+</html>
