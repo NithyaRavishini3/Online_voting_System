@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+h1{
+	font-family: "Times New Roman" , Times, serif;
+    text-shadow: 2px 2px 5px Gray;
+}
+
+a:hover{
+	background-color: #ddd;
+}
+
+.event{
+	display : block ;
+	margin-left: auto ;
+	margin-right: auto ;
+	width :900px ;
+	height : 300px ;
+	border :  1px solid black;
+}
+
+
+/*--------------header-------------------------------------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    background-color: #1e0b4a;
+}
+.header {
+    position: relative;
+    padding: 1px;
+    border: 1px solid;
+    width: auto;
+    background-color: #1e0b4a;
+}    
+.v {
+        position: relative;
+        font-family: Calibri, Arial, sans-serif;
+        text-indent: 300px;
+        padding: 8px;
+        position: relative;
+        color: white;
+        font-size: 30px;
+ }
+
+.topnav {
+    overflow: hidden;
+    margin: 1% 0 1%;
+}
+
+    
+.topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 50px ;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: Calibri, Arial, sans-serif;
+    }
+
+
+.top-right {
+    position: relative;
+    float: right;
+}
+
+
+.topnav a:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.topnav a.active {
+    position: relative;
+    background-color: #0761ab;
+    color: white;
+}
+
+
+.header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+}
+
+.header h1 {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+    margin: 2px;
+    top: 35px;
+    left: -100px;
+    color: white;
+}
+
+/*-----------------Upcoming shows-----------------------*/
+
+div.ushows {
+  margin: 13px 81px;
+  border: 2px solid  #391339;
+  float: left;
+  width: 300px;
+}
+
+
+div.ushows img {
+  width: 298px;
+  height: 300px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-image: linear-gradient(to bottom right,  #99b3e6 , #ffb3ff);
+}
+
+
+/*---------------Insert chalender--------------------- */
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  position: relative;
+  left: 700px;
+  padding:70px 20px;
+  width: 500px;
+  background:  #9999ff;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  position: relative;
+  right: 70px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.weekdays {
+  position: relative;
+  left: 700px;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+  width : 500px ;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%; 
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  position: relative;
+  left: 700px;
+  padding: 10px 0;
+  background: #eee;
+  margin: 0 ;
+  width : 500px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%; 
+  text-align: center;
+  margin-bottom: 15px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+@media screen and (max-width: 1500px) {
+    .weekdays li, .days li {
+        width: 12.5%;
+    }
+
+        .days li .active {
+            padding: 2px;
+        }
+}
+  
+ 
+/*-------------------footer-------------------------------*/
+
+.footer {
+    position: relative;
+    color: rgb(8, 8, 8);
+    background: #7721a6;
+    margin: 500px 0 0 0;
+    height: 70px;
+    width: 100%;
+    padding: 1px;
+    text-align: right;
+    font-weight: bolder;
+}
+.panvoting {
+    margin-right: 28px;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 5px;
+    position: relative;
+    font-family: Calibri, Arial, sans-serif;
+    color: white;
+    text-shadow: 4px 4px #000000;
+}
+.footdown {
+    position: relative;
+    padding: 1px;
+    background: #0761ab;
+    height: 200px;
+    width: 100%;
+    text-decoration: none;
+}
+.footcate {
+    text-decoration: none;
+    text-align: left;
+    padding: 11px;
+    color: #705c9e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 27.5px;
+    position: relative;
+}
+
+.footcate:link  {
+    text-decoration: none;
+    text-align: left;
+    padding: 11px;
+    color: #705c9e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 27.5px;
+    position: relative;
+}
+
+.footcate:hover{
+    color: rgb(1, 1, 146);
+}
+.copyrighted {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin: 700px 0 0 0;
+    position: relative;
+    color: white;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.google {
+    width: 193px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.google:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+
+.twitter {
+    width: 193px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.twitter:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+
+.facebook {
+    width: 196px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.facebook:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+
+.right{
+    float:right;
+}
+.bot{
+    font-size:12px;
+}
+
+ 
+

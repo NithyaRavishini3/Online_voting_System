@@ -1,0 +1,56 @@
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.set{
+    font-weight: bolder;
+    padding: 2px;
+    border: 1px solid;
+    width: 430px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+
+.img{
+    width: 100%;
+  height: 100%;
+}
+
+.forgotform{
+    padding: 60px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    width: 450px;
+    height: auto;
+
+}
+
+.forname{
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+.forenter{
+    width: 370px;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.submit{
+    background-color: slateblue;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: blue;
+    color: grey;
+}
+

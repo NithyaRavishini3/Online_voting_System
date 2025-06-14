@@ -1,0 +1,380 @@
+﻿body{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    background-color: #1e0b4a;
+}
+.header {
+    position: relative;
+    padding: 1px;
+    border: 1px solid;
+    width: auto;
+    background-color: #1e0b4a;
+}    
+.v {
+        position: relative;
+        font-family: Calibri, Arial, sans-serif;
+        text-indent: 300px;
+        padding: 8px;
+        position: relative;
+        color: white;
+        font-size: 30px;
+ }
+
+k {
+    font-family: Calibri, Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-shadow: 4px 4px #000000;
+    text-align: center;
+    position: relative;
+    margin: 500px 0px 200px;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    margin: 1% 0 1%;
+}
+
+    
+.topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 50px ;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: Calibri, Arial, sans-serif;
+    }
+
+
+.top-right {
+    position: relative;
+    float: right;
+}
+
+
+.topnav a:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.topnav a.active {
+    position: relative;
+    background-color: #0761ab;
+    color: white;
+}
+
+
+.header img {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+    border-radius: 50%;
+}
+
+.header h1 {
+    position: relative;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+    margin: 2px ;
+    top: 35px;
+    left: -100px;
+    color: white;
+}
+
+li {
+    float: left;
+    border-right: 1px solid  lightblue;
+}
+li a {
+        display: block;
+        padding: 8px;
+        background-color:aquamarine;
+        text-decoration: none;
+}
+
+li a:hover {
+            background-color:linen;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    width: 450px;
+    height: auto;
+    background-color: #af8bc4;
+    border-style: solid;
+}
+.label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:35px;
+    font-weight:bold;
+    color:black;
+}
+.Admin-login {
+    padding: 20px 40px;
+	margin:auto;
+ }
+.Admin-login .font {
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+    margin:5px 0;
+    text-align:left;
+ }
+.Admin-login input{
+    height:40px;
+    width:350px;
+    padding:0 10px;
+    font-size:18px;
+    outline:none;
+    margin-bottom:20px;
+
+}
+ .Admin-login .font2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        margin: 5px 0;
+        text-align: left;
+}
+
+.Admin-login button {
+    background-color: black;
+    color: white;
+    height:45px;
+    width:372px;
+    margin-top:8px 0; 
+    border: none;
+    cursor: pointer;
+    font-size:15px;
+}
+
+
+.Admin-login button:hover {
+    background-color: darkcyan;
+}
+.forgot{
+    font-weight:bold;
+    font-size:15px;
+    text-align:center;
+}
+p a{
+	text-decoration:none;
+}
+p a:hover{
+	
+	color:red;
+	
+}
+
+#signup-box {
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 1200px;
+    background-color: #4f9ee8;
+    border: 1px solid black;
+}
+#left-box {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 600px;
+    height: 400px;
+}
+.label{
+    margin:0 0 20px 0;
+    font-weight:300;
+    font-size:28px;
+}
+.U{
+    display:block;
+    box-sizing:border-box;
+    margin-bottom:20px;
+    padding:4px;
+    width:420px;
+    height:32px;
+    border:none;
+    outline:none;
+    border-bottom:1px solid;
+    font-family:sans-serif;
+    font-weight:500;
+    font-size:20px;
+    background-color:transparent;
+}
+#left-box button {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 420px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+#left-box button:hover {
+        background-color: darkcyan;
+}
+#right-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 600px;
+    height: 400px;
+    background-color: #053a96;
+}
+.OR {
+    position: absolute;
+    top: 180px;
+    left: 580px;
+    width: 40px;
+    height: 40px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size:25px;
+}
+.sign{
+    font-family:sans-serif;
+    font-weight:bold;
+    text-align:center;
+    margin-top:0;
+}
+
+
+.social {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 420px;
+    height: 42px;
+    color:white;
+    background-color:black;
+    cursor:pointer;
+    border:none;
+}
+.social a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	
+}
+#right-box button:hover {
+        background-color:chocolate;
+ }
+
+.footer {
+    position: relative;
+    color: rgb(8, 8, 8);
+    background: #7721a6;
+    margin: 500px 0 0 0;
+    height: 70px;
+    width: 100%;
+    padding: 1px;
+    text-align: right;
+    font-weight: bolder;
+}
+.panvoting {
+    margin-right: 28px;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 5px;
+    position: relative;
+}
+.footdown {
+    position: relative;
+    padding: 1px;
+    background: #0761ab;
+    height: 200px;
+    width: 100%;
+    text-decoration: none;
+}
+.footcate {
+    text-decoration: none;
+    text-align: left;
+    padding: 11px;
+    color: #705c9e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 27.5px;
+    position: relative;
+}
+
+.footcate:link  {
+    text-decoration: none;
+    text-align: left;
+    padding: 11px;
+    color: #705c9e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 27.5px;
+    position: relative;
+}
+
+.footcate:hover{
+    color: rgb(1, 1, 146);
+}
+.copyrighted {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin: 700px 0 0 0;
+    position: relative;
+    color: white;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.google {
+    width: 193px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.google:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+
+.twitter {
+    width: 193px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.twitter:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+
+.facebook {
+    width: 196px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.facebook:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+.right{
+    float:right;
+}
+.bot{
+    font-size:12px;
+	color:white;
+}
+
