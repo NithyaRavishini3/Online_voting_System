@@ -1,0 +1,232 @@
+<!DOCTYPE html> 
+<head>
+<title>Rate To Date</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"  href="../Styles/ratetodateagt.css">
+</head>
+<body>
+  <div class="header">
+<img src="../images/logo.png" alt="logo">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<center><h4 style ="font-size:90px"><b>PAN-OTING</b></h4></center>
+</br/><br/>
+
+<center>
+<h2 style ="font-size:35px ; color :white; text-indent: 350px; text-indent: 400px; margin: 0">VOTING MADE EASY.</h2>
+</center>
+<br/>
+<div class="topnav">
+
+<a href="../html/HomePage.html">Home</a>
+<a class="active"href="#">Events</a>
+<a href="../php/Contact.php">Contact Us</a>
+<a href="../html/aboutus.html">About Us</a>
+<a href="../html/Feedback.html">Feedback</a>
+
+
+
+</div>
+</div>
+<h1 style=>Rate To Date</h1>
+
+	<div class="row">
+  <div class="column" style="background-color:#666666;">
+  
+    <div class="img1">
+<img src="../images/Brooke Simpson.jpg" width="90" height="90" alt="parti 3">
+<p class = "w">1<sup>st</sup> place</p>
+</div>
+
+<div class="img2">
+<img src="../images/Josh Blue.jpg" width="90" height="90" alt="parti 4">
+<p class = "w1">2<sup>nd</sup> place</p>
+</div>
+
+<div class="img2">
+<img src="../images/Aidan Bryant.jpg" width="90" height="90" alt="parti 1">
+<p class = "w2">3<sup>rd</sup> place</p>
+</div>
+
+<div class="img2">
+<img src="../images/Dustin Tavella.jpg" width="90" height="90" alt="parti 2">
+<p class = "w3">4<sup>th</sup> place</p>
+</div>
+
+<div class="img2">
+<img src="../images/Lea Kyle.jpg" width="90" height="90" alt="parti 5">
+<p class = "w4">5<sup>th</sup> place</p>
+</div>
+  </div>
+  
+  <div class="column-r" style="background-color: #808080;">
+ 
+<span class="heading"><p class="rate">Rating and Reviews</p></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p class="review">4.1 average based on vote reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+
+<div class="row">
+  <div class="side">
+    <div>Brooke</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="bar-5" class="bar-5"></div>
+      <!-- <input id="hidden" value=""/> -->
+    </div>
+  </div>
+  <div class="side right">
+    <div id="brookeVal"></div>
+  </div>
+
+  <div class="side">
+    <div>Josh</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="bar-4" class="bar-4"></div>
+     <!-- <input id="" value=""/> -->
+    </div>
+  </div>
+  <div class="side right">
+    <div id="joshVal"></div>
+  </div>
+
+  <div class="side">
+    <div>Dustin</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="bar-3" class="bar-3"></div> 
+    <!--  <input id="" value=""/> -->
+    </div>
+  </div>
+  <div class="side right">
+    <div id="dustinVal"></div>
+  </div>
+
+  <div class="side">
+    <div>Lea</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="bar-2" class="bar-2"></div>
+     <!-- <input id="" value=""/> -->
+    </div>
+  </div>
+  <div class="side right">
+    <div id="leaVal"></div>
+  </div>
+
+  <div class="side">
+    <div>Aidan</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="bar-1" class="bar-1"></div>
+    <!--  <input id="" value=""/> -->
+    </div>
+  </div>
+  <div class="side right">
+    <div id="aidanVal"></div>
+  </div>
+</div>
+  </div>
+<br/>
+ 
+<form action = "../php/ratetodate.inc.php" method = "Post"> 
+
+<input type = "hidden" name = "brooke" id="bv">
+<input type = "hidden" name = "josh" id="jv">
+<input type = "hidden" name = "dustin" id="dv">
+<input type = "hidden" name = "lea" id="lv">
+<input type = "hidden" name = "aidan" id="av">
+
+<center> <button type = "submit" class = "button button-2" id = "submitbutton" value = "Submit " >Submit Details To The Database!</button> </center><br> 
+
+</form>
+
+  <script>
+    //aidan values
+     var x =localStorage.getItem("clickcount");
+ 
+    //var x = document.getElementById("aidanVal").value;
+    document.getElementById("aidanVal").innerHTML = x;
+    document.getElementById("bar-1").style.width = x+"%";
+
+
+    // lea values 
+    var y =localStorage.getItem("clickcount4");
+    document.getElementById("leaVal").innerHTML = y;
+    document.getElementById("bar-2").style.width = y+"%";
+
+// dustin values 
+    var z =localStorage.getItem("clickcount2");
+    document.getElementById("dustinVal").innerHTML = z;
+    document.getElementById("bar-3").style.width = z+"%";
+
+// josh values 
+    var k =localStorage.getItem("clickcount3");
+    document.getElementById("joshVal").innerHTML = k;
+    document.getElementById("bar-4").style.width = k+"%";
+
+// brooke values 
+    var d =localStorage.getItem("clickcount1");
+    document.getElementById("brookeVal").innerHTML = d;
+    document.getElementById("bar-5").style.width = d+"%";
+
+  </script>
+  
+  <script>
+   var a =localStorage.getItem("clickcount1");
+   document.getElementById("bv").value = a;
+   
+   var b = localStorage.getItem("clickcount3");
+   document.getElementById("jv").value = b;
+   
+   var c = localStorage.getItem("clickcount2");
+   document.getElementById("dv").value = c;
+   
+   var d = localStorage.getItem("clickcount4");
+   document.getElementById("lv").value = d;
+   
+   var e = localStorage.getItem("clickcount");
+   document.getElementById("av").value = e;
+   
+   </script>
+ 
+ <style>
+
+.button {
+  width: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+.button-2 {
+ border: 3px solid ;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: #c266d3;
+}
+
+</style>
+
+</body>
+</html>
