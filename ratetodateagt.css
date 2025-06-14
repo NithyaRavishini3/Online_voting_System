@@ -1,0 +1,230 @@
+body{
+font-family: 'Open Sans', sans-serif;
+position: relative;
+background-color: #7300e6;
+}
+
+.header{
+position: relative;
+padding: 1px;
+border: 1px solid #000066;
+width: auto;
+background-color: #000066;
+}
+
+.v {
+position: relative;
+font-family: Calibri, Arial, sans-serif;
+text-indent: 300px;
+padding: 8px;
+position: relative;
+color: white;
+font-size: 30px;
+}
+
+.topnav {
+position: relative;
+overflow: hidden;
+margin: 1% 0 1%;
+}
+
+.topnav a {
+position: relative;
+float: left;
+color: white;
+text-align: center;
+padding: 5px 15px ;
+text-decoration: none;
+font-size: 20px;
+font-family: Calibri, Arial, sans-serif;
+}
+
+.top-right {
+position: relative;
+float: right;
+}
+
+.topnav a:hover {
+background-color: rebeccapurple;
+color: white;
+}.topnav a.active {
+position: relative;
+background-color: #0761ab;
+color: white;
+}
+
+.header img {
+position: relative;
+float: left;
+width: 100px;
+height: 100px;
+position: relative;
+margin: 30px 30px 30px 30px;
+border-radius: 50%;
+}
+
+.header h4 {
+position: relative;
+font-family: Calibri, Arial, sans-serif;
+font-size: 50px;
+position: relative;
+text-align: center;
+margin: 2px ;
+top: 35px;
+left: -100px;
+color: white;
+}
+
+
+
+h1{
+	text-align:center;
+	color:#ffffff;
+	font-size:60px;
+	text-shadow: 2px 2px 5px #cccccc;
+}
+
+.img1{
+	margin-left: 48px;
+	margin-top:35px;
+	padding: 7px 5px 5px 7px;
+	width: 600px;
+	background-color:#404040;
+	border: 1px solid #404040;
+    padding: 10px;
+    box-shadow: 5px 1px 8px #595959; 
+}
+
+.img2{
+	margin-left: 48px;
+	margin-top:28px;
+	padding: 7px 5px 5px 7px;
+	background-color:#404040;
+	width: 600px;
+	border: 1px solid #404040;
+	padding: 10px;
+    box-shadow: 5px 10px 8px #595959; 
+}
+
+.w{
+	position: absolute;
+	top : 57%;
+	left: 26%;
+	transform: translate(-50%, -50%);
+	bottom :5px;
+	font-size:40px;
+	color:white;
+}
+
+.w1{
+	position: absolute;
+	top : 66.5%;
+	left: 26%;
+	transform: translate(-50%, -50%);
+	bottom :5px;
+	font-size:40px;
+	color:white;
+}
+
+.w2{
+	position: absolute;
+	top :76%;
+	left: 26%;
+	transform: translate(-50%, -50%);
+	bottom :5px;
+	font-size:40px;
+	color:white;
+}
+.w3{
+	position: absolute;
+	top: 85%;
+	left: 26%;
+	transform: translate(-50%, -50%);
+	bottom :5px;
+	font-size:40px;
+	color:white;
+}
+
+.w4{
+	position: absolute;
+	top :96%;
+	left: 26%;
+	transform: translate(-50%, -50%);
+	font-size:40px;
+	bottom :5px;
+	color:white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 1px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-r {
+  
+  float: right;
+  width: 49%;
+  padding: 50px;
+  margin-top:55px;
+}
+
+/*ratings and review section*/
+.fa { 
+  font-size: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:15px;
+  font-family:Arial;
+  font-size:20px;
+ }
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align:right;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 0%; height: 20px; background-color: #33cc33;}
+.bar-4 {width: 0%; height: 20px; background-color: #ff0000;}
+.bar-3 {width: 0%; height: 20px; background-color: #3399ff;}
+.bar-2 {width: 0%; height: 20px; background-color: #ff6600;}
+.bar-1 {width: 0%; height: 20px; background-color: #ff0066;}
+
+.rate{
+	font-family: Arial;
+	font-size:20px;
+	
+}
+.review{
+	font-family: Arial;
+	font-size:20px;
+}

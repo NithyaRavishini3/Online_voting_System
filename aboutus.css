@@ -1,0 +1,398 @@
+﻿body{
+font-family: 'Open Sans', sans-serif;
+position: relative;
+background-color: #1e0b4a;
+}
+.header {
+    position: relative;
+    padding: 1px;
+    border: 1px solid;
+    width: auto;
+    background-color: #1e0b4a;
+}
+
+k {
+    font-family: Calibri, Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-shadow: 4px 4px #000000;
+    text-align: center;
+    position: relative;
+    margin: 500px 0px 200px;
+}
+.v {
+position: relative;
+font-family: Calibri, Arial, sans-serif;
+text-indent: 300px;
+padding: 8px;
+position: relative;
+color: white;
+font-size: 30px;
+}
+
+
+
+.topnav {
+position: relative;
+overflow: hidden;
+margin: 1% 0 1%;
+}
+
+
+
+
+.topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 50px ;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: Calibri, Arial, sans-serif;
+    }
+
+
+
+.top-right {
+position: relative;
+float: right;
+}
+
+
+
+
+.topnav a:hover {
+background-color: rebeccapurple;
+color: white;
+}
+
+
+
+.topnav a.active {
+position: relative;
+background-color: #0761ab;
+color: white;
+}
+
+
+
+
+.header img {
+position: relative;
+float: left;
+width: 150px;
+height: 150px;
+position: relative;
+margin: 30px 30px 30px 30px;
+border-radius: 50%;
+}
+
+
+
+.header h1 {
+position: relative;
+font-family: Calibri, Arial, sans-serif;
+font-size: 90px;
+position: relative;
+text-align: center;
+margin: 2px ;
+top: 35px;
+left: -100px;
+color: white;
+}
+li {
+    float: left;
+    border-right: 1px solid lightblue;
+}
+li a {
+        display: block;
+        padding: 8px;
+        background-color: aquamarine;
+        text-decoration: none;
+}
+li a:hover {
+        background-color: linen;
+}
+.box {
+    display:flex;
+    width:auto;
+}
+.left-box {
+    box-sizing: border-box;
+    padding: 0;
+    width: 320px;
+    height: auto;
+    background-color: #af8bc4;
+    margin-top: 150px;
+    margin-right: 200px;
+    margin-left: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+p{
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.mission{
+    font-size:30px;
+    text-align:center;
+ 
+  
+}
+.center-box {
+    box-sizing: border-box;
+    padding: 0px;
+    width: 320px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #af8bc4;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.promises{
+    font-size:30px;
+    text-align:center;
+}
+.right-box {
+    box-sizing: border-box;
+    padding: 0;
+    width: 320px;
+    height: auto;
+    background-color: #af8bc4;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.vibe {
+    text-align: center;
+    font-size: 30px;
+}
+.bottom {
+    display: flex;
+    width: auto;
+}
+.b-left {
+    box-sizing: border-box;
+    padding: 0;
+    width: 820px;
+    height: 420px;
+    background-color: #af8bc4;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.service{
+    text-align:center;
+    font-weight:bold;
+}
+.b-right {
+    box-sizing: border-box;
+    padding: 0;
+    width: 1000px;
+    height: auto;
+    background-color: #af8bc4;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.location{
+    text-align:center;
+    font-weight:bold;
+}
+.help{
+    height:50px;
+    width:175px;
+    background-color:black;
+    padding:5px;
+}
+.post{
+    color:white;
+    margin:20px;
+    font-size:15px;
+}
+.icon{
+    margin:30px;
+}
+.en{
+    font-size:25px;
+    font-weight:bold;
+}
+.ek {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.youtube{
+    float:right;
+    margin-right:100px;
+    font-size:15px;
+    font-weight:bold;
+    padding:5px;
+    color:white;
+    border-radius:5px;
+    width:100px;
+}
+.youtube a{
+    text-decoration:none;
+    color:white;
+}
+.youtube a:hover {
+    color:darkcyan;
+       
+}
+.like-us {
+    float: right;
+    margin-right: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    width:120px;
+	margin-right: 78px;
+}
+.like-us a{
+    text-decoration:none;
+    color:white;
+}
+.like-us a:hover {
+      color:darkcyan;
+}
+.like {
+        float: right;
+        margin-right: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px;
+        color: white;
+        border-radius: 5px;
+        width: 150px;
+        height: 15px;
+}
+.like a {
+    text-decoration: none;
+    color: white;
+}
+.like a:hover {
+    color: darkcyan;
+}
+.qr {
+    float: right;
+     margin-top:-75px;
+     margin-right:75px;
+}
+
+.right {
+    float: right;
+}
+
+.bot {
+    font-size: 12px;
+}
+
+.footer {
+    position: relative;
+    color: rgb(8, 8, 8);
+    background: #7721a6;
+    margin: 500px 0 0 0;
+    height: 70px;
+    width: 100%;
+    padding: 1px;
+    text-align: right;
+    font-weight: bolder;
+}
+.panvoting {
+    margin-right: 28px;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 5px;
+    position: relative;
+}
+.footdown {
+    position: relative;
+    padding: 1px;
+    background: #0761ab;
+    height: 200px;
+    width: 100%;
+    text-decoration: none;
+}
+.footcate {
+    text-decoration: none;
+    text-align: left;
+    padding: 11px;
+    color: #705c9e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 27.5px;
+    position: relative;
+}
+
+.footcate:link  {
+    text-decoration: none;
+    text-align: left;
+    padding: 11px;
+    color: #705c9e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 27.5px;
+    position: relative;
+}
+
+.footcate:hover{
+    color: rgb(1, 1, 146);
+}
+.copyrighted {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin: 700px 0 0 0;
+    position: relative;
+    color: white;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.google {
+    width: 193px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.google:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+
+.twitter {
+    width: 193px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.twitter:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}
+
+.facebook {
+    width: 196px;
+    text-decoration: none;
+    float: left;
+    margin: 500px 0 500px;
+    position: relative;
+}
+.facebook:hover{
+    background-color: rgb(9, 12, 53);
+    color: rgb(132, 132, 240);
+}

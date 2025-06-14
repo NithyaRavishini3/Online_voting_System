@@ -1,0 +1,30 @@
+body {
+    background-color: #1e0b4a;
+}
+.padding{
+    margin-top: 150px;
+    border: 1px solid;
+    padding: 50px;
+    width: 600px;
+    background-color: rgb(184, 11, 132);
+    border-color: ghostwhite;
+    border-radius: 35px;
+    
+}
+h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 30px;
+    color: rgb(231, 241, 137);
+
+}
+strong{
+    font-size: 35px;
+    font-weight: bolder;
+    color: blue;
+}
+strong:hover{
+    color: rgb(68, 184, 230);
+}
